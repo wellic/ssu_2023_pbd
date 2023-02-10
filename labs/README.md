@@ -1,14 +1,19 @@
-# jnb
-Python jupiter notebook
+# JNB: Python jupiter notebook
 
-0) Do exec
+## додати права на запуск
 
-`chmod +x start.sh`
+```bash 
+`chmod +x jupyter_start`
+``` 
 
-1) start
+## Start jupyter server 
 
-`./start.sh`
+```bash 
+./jupyter_start
+```
 
-2) start and reinstall all workspace
+## Start and reinstall virtual environment
 
-`./jupyter_start 1`
+```bash 
+./jupyter_start 1
+```
