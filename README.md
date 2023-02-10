@@ -8,9 +8,7 @@
 git clone you_repo_name .
 ```
 
-2. Підтягнути оновлення з головного репозиторію до вашого репозиторію
-
-- [Eng](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+2. [Підтягнути оновлення з головного репозиторію до вашого репозиторію](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
 ## Cтруктура папок
 
