@@ -1,6 +1,6 @@
 # Лабораторний практикум
 
-## Початок
+## Початок роботи
 
 1. [Зробити форк основного репозіторію](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
 
@@ -12,13 +12,14 @@ git clone you_repo_name .
 
 3. [Підтягнути оновлення з головного репозиторію до вашого репозиторію](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
-## Cтруктура папок
+## Cтруктура папок lkz hj,jnb
 
 - [docs](docs/) - необхідні для роботи документи, конспекти і допоміжні матеріали
 - [labs](labs) - необхідні матеріали для роботи на лабораторних практикумах
-- [results](results/) - папка, де ви зформуєте результат для заліку
-- [results/task](results/task) - завдання для заліку
+- [results](results/) - каталог с завданням і вашими кінцевими результатами
+  - [results/task](results/task) - завдання для заліку
+  - [results](results/RESULTS.md) - результати вашої роботи
 
-## Залік
+## Як отримати залік
 
 [Детальніше ...](results/task/task.md)
