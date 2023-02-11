@@ -2,7 +2,8 @@
 
 ## Початок роботи
 
-1. [Зробити форк основного репозіторію](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
+1. [Зробити форк основного репозіторію ssu_2023_pbd](https://github.com/wellic/ssu_2023_pbd)
+   - [Детальніше ...](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
 
 2. Склонувати ваш репозіторій до робочого каталогу
 
@@ -15,9 +16,9 @@ git clone you_repo_name .
 ## Cтруктура папок lkz hj,jnb
 
 - [docs](docs/) - необхідні для роботи документи, конспекти і допоміжні матеріали
-- [labs](labs) - необхідні матеріали для роботи на лабораторних практикумах
+- [labs](labs/) - необхідні матеріали для роботи на лабораторних практикумах
 - [results](results/) - каталог с завданням і вашими кінцевими результатами
-  - [results/task](results/task) - завдання для заліку
+  - [results/task](results/task/) - завдання для заліку
   - [results](results/RESULTS.md) - результати вашої роботи
 
 ## Як отримати залік
