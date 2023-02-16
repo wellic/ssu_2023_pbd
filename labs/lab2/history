@@ -21,7 +21,6 @@ git rebase master
 git push -u origin lab1:lab1
 git push -fu origin lab1:lab1
 
-
 # зробити нову гілку
 git co <you_branch>
 git co -b <new_branch>
