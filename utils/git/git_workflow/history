@@ -4,26 +4,26 @@ gh repo clone <your_repo>/ssu_2023_pbd
 git remote -v 
 git status
 git branch -ra
-git br --help
-git co lab1
-git co master
+git branch --help
+git checkout lab1
+git checkout master
 git fetch -pt origin
 git fetch -pt upstream
 gitk --all
 
 # Оновлення свого мастеру
-git co master
+git checkout master
 git remote -v
 git fetch -pt upstream
 git rebase upstream/master
-git co lab1
+git checkout lab1
 git rebase master
 git push -u origin lab1:lab1
 git push -fu origin lab1:lab1
 
 # зробити нову гілку
-git co <you_branch>
-git co -b <new_branch>
+git checkout <you_branch>
+git checkout -b <new_branch>
 ....
 git status
 git add
