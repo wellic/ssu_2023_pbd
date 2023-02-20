@@ -1,0 +1,21 @@
+    #There were installation of custom terminal) 
+   31  cd lab/ssu_2023_pbd
+   32  git remote add upstream https://github.com/wellic/ssu_2023_pbd
+   33  git fetch -pt upstream
+   34  git checkout master
+   35  git rebase upstream/master
+   36  git push -fu origin master:master
+    #There were operations with my config to push with token
+   46  git branch
+   47  cd lab/ssu_2023_pbd
+   48  git branch
+   49  git branch -v
+   50  git branch lab2
+   51  git checkout lab2
+   52  ls
+   53  cd labs
+   54  ls
+   55  cd ..
+   56  cd labs
+   57  mkdir lab2
+   58  cd lab2
