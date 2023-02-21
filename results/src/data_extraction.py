@@ -60,7 +60,7 @@ save_new_format(population_df, '../data/population/', 'population')
 save_new_format(ppp_df, '../data/ppp/', 'ppp-gdp')
 
 
-# Leave only the cities according to my variant in the dataframes
+# Leave only the countries according to my variant in the dataframes
 countries = ['Cyprus', 'Equatorial Guinea', 'Ethiopia']
 population_df = population_df[population_df['Country Name'].isin(countries)]
 ppp_df = ppp_df[ppp_df['Country'].isin(countries)]
