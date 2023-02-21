@@ -16,7 +16,7 @@
 
 ### Jupiter Notebooks
 
-- [display of graphs](src/display_of_graphs.jpynb)
+- [display of graphs](src/display_of_graphs.ipynb)
 
 ### Файли
 
@@ -51,14 +51,14 @@
 ##### Population
 
 - CSV: [Population](data/population/population_by_variant.csv)
-- JSON: [Population](data/population/population_by_variant.xlsx)
-- XLSX: [Population](data/population/population_by_variant.json)
+- JSON: [Population](data/population/population_by_variant.json)
+- XLSX: [Population](data/population/population_by_variant.xlsx)
 
 ##### PPP
 
 - CSV: [ppp-gdp](data/ppp/ppp-gdp_by_variant.csv)
-- JSON: [ppp-gdp](data/ppp/ppp-gdp_by_variant.xlsx)
-- XLSX: [ppp-gdp](data/ppp/ppp-gdp_by_variant.json)
+- JSON: [ppp-gdp](data/ppp/ppp-gdp_by_variant.json)
+- XLSX: [ppp-gdp](data/ppp/ppp-gdp_by_variant.xlsx)
 
 ---
 
@@ -72,7 +72,7 @@
     4. Для датасетів population та ppp збережено дані країн згідно варіанту.
     5. Збережено згенеровані дані в трьох форматах (CSV, XLSX, JSON).
     6. Видалено непотрібні директорії.
-3. Виконуємо код програми 2 в ноутбук [display of graphs](src/display_of_graphs.jpynb).
+3. Виконуємо код програми 2 в ноутбук [display of graphs](src/display_of_graphs.ipynb).
 4. Результат программи 2
     1. Популяція за країнами за інтервал часу 1960-2018 роки:
        [лінійний графік](img/population_in_countries_line.png), 
