@@ -1,0 +1,24 @@
+  sudo apt install gitk
+  gitk
+  gitk --all
+  git checkout master
+  git remote add upstream https://github.com/wellic/ssu_2023_pbd
+  git fetch -pt upstream
+  git checkout master
+  git rebase upstream/master
+  git push -fu origin master:master
+  cd utils/git
+  bash setup_hooks.sh
+  cd ../..
+  git checkout -b lab2 master
+  gitk --all
+  git checkout Lab1
+  git rebase master
+  gitk --all
+  git branch 
+  git branch
+  git checkout lab2
+  cd labs
+  mkdir lab2
+  cd lab2
+  history > history.txt
