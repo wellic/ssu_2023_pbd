@@ -30,12 +30,6 @@ wti_year = pd.read_csv(oil_wti_path + '/wti-year.csv')
 population = pd.read_csv(popul_path + '/population.csv')
 ppp_gdp = pd.read_csv(ppp_gdp_path + '/ppp-gdp.csv')
 
-# Зберігаємо дані в 3-х форматах
-save_in_three_formats(oil_prices, oil_wti_path, 'brent-year')
-save_in_three_formats(wti_year, oil_wti_path, 'wti-year')
-save_in_three_formats(population, popul_path, 'population')
-save_in_three_formats(ppp_gdp, ppp_gdp_path, 'ppp-gdp')
-
 # Змінюємо і налаштовуємо формат даних для всіх наборів
 oil_prices['Date'] = pd.to_datetime(oil_prices.Date)
 oil_prices['Date'] = oil_prices['Date'].dt.strftime('%Y')
@@ -47,8 +41,8 @@ ppp_gdp['Year'] = pd.to_datetime(ppp_gdp.Year, format='%Y')
 ppp_gdp['Year'] = ppp_gdp['Year'].dt.strftime('%Y')
 
 # Зберігаємо нові дані в 3-х форматах
-save_in_three_formats(oil_prices, oil_wti_path, 'brent-year_new')
-save_in_three_formats(wti_year, oil_wti_path, 'wti-year_new')
-save_in_three_formats(population, popul_path, 'population_new')
-save_in_three_formats(ppp_gdp, ppp_gdp_path, 'ppp-gdp_new')
+save_in_three_formats(oil_prices, oil_wti_path, 'brent-year')
+save_in_three_formats(wti_year, oil_wti_path, 'wti-year')
+save_in_three_formats(population, popul_path, 'population')
+save_in_three_formats(ppp_gdp, ppp_gdp_path, 'ppp-gdp')
 
