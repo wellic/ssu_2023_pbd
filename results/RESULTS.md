@@ -3,8 +3,8 @@
 Результатом лабораторного практикуму для 3 країн
 
 1. Малайзія
-2. Країна 2
-3. Країна 3
+2. Польща
+3. Руанда
 
 є наступні матеріали.
 
@@ -12,70 +12,66 @@
 
 ### Python code
 
-- [hello world](src/hello_world.py)
+- [main](src/main.py)
 
 ### Jupiter Notebooks
 
-- [jnb hello world](src/hello_world.jnb)
-
-#### Scripts
-
-- [bash hello world](src/hello_world.sh)
+- [main_graphs](src/main_graphs.ipynb)
 
 ### Файли
 
 #### Вхідні дані (разархівовані та сконвертовані дані)
 
-##### file 1
+##### Oil Prices
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [brent-year](data/oil-prices-master/data/brent-year.csv)
+- JSON: [brent-year](data/oil-prices-master/data/brent-year.json)
+- XLSX [brent-year](data/oil-prices-master/data/brent-year.xlsx)
 
-##### file 2
+##### West Texas Intermediate Prices 
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [wti-year](data/oil-prices-master/data/wti-year.csv)
+- JSON: [wti-year](data/oil-prices-master/data/wti-year.json)
+- XLSX [wti-year](data/oil-prices-master/data/wti-year.xlsx)
 
-##### file 3
+##### Population 
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [population](data/population-master/data/population.csv)
+- JSON: [population](data/population-master/data/population.json)
+- XLSX [population](data/population-master/data/population.xlsx)
 
-#### Сгенеровані нові дані
+##### Purchasing Power Parity
 
-##### table 1
-
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-##### table 2
-
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-#### Графіки
-
-- [img 1](src/file1link1.jnb)
-- [img 2](img/file1link2.png)
-- [img 2](img/file1link2.jpg)
+- CSV: [ppp-gdp](data/ppp-master/data/ppp-gdp.csv)
+- JSON: [ppp-gdp](data/ppp-master/data/ppp-gdp.json)
+- XLSX [ppp-gdp](data/ppp-master/data/ppp-gdp.xlsx)
 
 ---
 
 ## Інструкція до роботи
 
-1. Запускаемо [программу 1](src/hello_world.py).
-2. Результат программи 1:
-    1. ...
-    2. ...
-    3. ...
-3. Виконуємо код програми 2 в ноутбук ...
-4. Результат программи 2
-    1. ...
-    2. ...
-    3. ...
-       ...
+1. Запускаємо [main](src/main.py).
+2. Результати программи 1:
+    1. Отримано розархівовані дані.
+    2. Змінено формат дати даних.
+    3. Збережено в 3-х форматах.
+3. Виконуємо код програми 2 в ноутбук [main_graphs](src/main_graphs.ipynb)
+4. Результати программи 2:
+    1. Населення в 3-х країнах за період 1960-2018рр:
+       [лінійний графік](img/population_in_countries1.png),
+       [стовпчаста гістограма](img/population_in_countries2.png),
+       [секторна діаграма](img/population_in_countries3.png).
+    2. Основні статистичні величини по кожній країні (count, min, max, mean, std, квантіли 25%, 50%, 75%, 95%):
+       [Малайзія](img/population_of_Malaysia_static.png),
+       [Польща](img/population_of_Poland_static.png),
+       [Руанда](img/population_of_Rwanda_static.png).
+    3. Зв'язок ціни на паливо (oil prices) з паритетом купівельної здатності
+       [лінійний графік](img/connection_oil_prices_ppp.png).
+    4. Зв'язок ціни на паливо (wti) з паритетом купівельної здатності
+       [лінійний графік](img/connection_wti_ppp.png).
+    5. Зв'язок між населенням країн та паритетом купівельної здатності
+       [лінійний графік](img/connection_population_ppp.png).
+    6. Зв'язок між налесенням та ціною на паливо (oil prices)
+       [лінійний графік](img/cconnection_oil_population.png).
+    7. Відсоток паритету купільвельної здатності (ppp) окремої країни до серднього паритету (ppp) всіх країн за кожен рік
+       [лінійний графік](img/perc_ppp_country.png).
