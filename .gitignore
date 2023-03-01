@@ -13,6 +13,7 @@ __pycache__/
 
 .venv/
 venv/
+venv*/
 .coveragerc
 
 # Byte-compiled / optimized / DLL files
