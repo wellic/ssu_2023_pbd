@@ -2,9 +2,9 @@
 
 Результатом лабораторного практикуму для 3 країн
 
-1. Belarus
-2. Honduras
-3. Curacao
+1. Білорусь
+2. Гондурас
+3. Кюрасао
 
 є наступні матеріали.
 
@@ -12,70 +12,58 @@
 
 ### Python code
 
-- [hello world](src/hello_world.py)
+- [extract_from_archive](src/extract_from_archive.py)
 
 ### Jupiter Notebooks
 
-- [jnb hello world](src/hello_world.jnb)
+- [data_visualization](src/data_visualization.ipynb)
 
-#### Scripts
-
-- [bash hello world](src/hello_world.sh)
 
 ### Файли
 
-#### Вхідні дані (разархівовані та сконвертовані дані)
+#### Вхідні дані (разархівовані, сконвертовані та одразу сгенеровані дані)
 
-##### file 1
+##### Oil prices (year)
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [brent-year](data/oil-prices-master/data/brent-year.csv)
+- JSON: [brent-year](data/oil-prices-master/data/brent-year.json)
+- XLSX [brent-year](data/oil-prices-master/data/brent-year.xlsx)
 
-##### file 2
+##### wti (year)
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [wti-year](data/oil-prices-master/data/wti-year.csv)
+- JSON: [wti-year](data/oil-prices-master/data/wti-year.json)
+- XLSX [wti-year](data/oil-prices-master/data/wti-year.xlsx)
 
-##### file 3
+##### Population
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [population](data/population-master/data/population.csv)
+- JSON: [population](data/population-master/data/population.json)
+- XLSX [population](data/population-master/data/population.xlsx)
 
-#### Сгенеровані нові дані
+##### Purchasing power parities
 
-##### table 1
+- CSV: [ppp](data/ppp-master/data/ppp-gdp.csv)
+- JSON: [ppp](data/ppp-master/data/ppp-gdp.json)
+- XLSX [ppp](data/ppp-master/data/ppp-gdp.xlsx)
 
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-##### table 2
-
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-#### Графіки
-
-- [img 1](src/file1link1.jnb)
-- [img 2](img/file1link2.png)
-- [img 2](img/file1link2.jpg)
 
 ---
 
 ## Інструкція до роботи
 
-1. Запускаемо [программу 1](src/hello_world.py).
+1. Запускаемо [extract_from_archive](src/extract_from_archive.py).
 2. Результат программи 1:
-    1. ...
-    2. ...
-    3. ...
-3. Виконуємо код програми 2 в ноутбук ...
+    1. дістаємо дані з архіву;
+    2. Зчитуємо дані;
+    3. Змінюємо формат дати;
+    4. Зберігаємо дані в 3-х форматах (CSV, JSON, XLSX)
+3. Виконуємо код програми 2 в ноутбук [data_visualization](src/data_visualization.ipynb).
 4. Результат программи 2
-    1. ...
-    2. ...
-    3. ...
-       ...
+    1. Популяція за 1960-2018 роки: [лінійний графік](img/population_line.png), [стовпчаста діаграма](img/population_bar.png), [секторна діаграма](img/population_pie.png).
+    2. Основні стаститичні величини в табличному вигляді: [Білорусь](img/main_stat_values_belarus.png), [Гондурас](img/main_stat_values_honduras.png), [Кюрасао](img/main_stat_values_curacao.png).
+    3. Зв'язок ціни на нафту з ppp: [графік](img/ppp_oil_price.png)
+    4. Зв'язок популяції та ppp: [графік](img/population_ppp.png)
+    5. Зв'язок популяції та цін на нафту: [графік](img/population_oil_price.png)
+    6. Відсоток ppp окремої країни до серднього ppp всіх країн за рік: [графік](img/percentage_of_ppp.png)
+       
