@@ -36,6 +36,13 @@ by Harry Percival, Bob Gregory](https://www.oreilly.com/library/view/architectur
 ### Python
 - [Jupyter Project Documentation](https://docs.jupyter.org/en/latest/)
 
+### Pandas
+
+- https://pandas.pydata.org/docs/user_guide/10min.html#min
+- https://khashtamov.com/ru/pandas-introduction/
+- https://smysl.io/blog/pandas/
+
+
 ### Docker & Kubernetes
 
 ##### Study Example
